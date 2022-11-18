@@ -58,7 +58,7 @@
                         android:textColor="@color/black"
                         android:textStyle="bold"
                         app:drawableStartCompat="@drawable/ic_rating"
-                        app:drawableTint="@color/primaryColor" />
+                        app:drawableTint="#FFEB3B" />
 
                     <com.google.android.material.textview.MaterialTextView
                         android:layout_width="wrap_content"
@@ -84,7 +84,7 @@
                         android:layout_toStartOf="@+id/imgSaveLocation"
                         android:onClick="@{()->listener.onDirectionClick(googlePlaceModel)}"
                         android:src="@drawable/ic_direction"
-                        app:tint="@color/primaryColor" />
+                        app:tint="@color/black" />
                 </RelativeLayout>
 
                 <TextView

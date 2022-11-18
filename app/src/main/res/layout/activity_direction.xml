@@ -154,7 +154,7 @@
                     android:text="Driving"
                     android:textColor="@color/white"
                     app:checkedIconEnabled="true"
-                    app:chipBackgroundColor="@color/primaryColor" />
+                    app:chipBackgroundColor="@color/black" />
 
                 <com.google.android.material.chip.Chip
                     android:id="@+id/btnChipWalking"
@@ -163,7 +163,7 @@
                     android:checkable="true"
                     android:text="Walking"
                     android:textColor="@color/white"
-                    app:chipBackgroundColor="@color/primaryColor" />
+                    app:chipBackgroundColor="@color/black" />
 
                 <com.google.android.material.chip.Chip
                     android:id="@+id/btnChipBike"
@@ -172,7 +172,7 @@
                     android:checkable="true"
                     android:text="Bike"
                     android:textColor="@color/white"
-                    app:chipBackgroundColor="@color/primaryColor" />
+                    app:chipBackgroundColor="@color/black" />
 
                 <com.google.android.material.chip.Chip
                     android:id="@+id/btnChipTrain"
@@ -181,7 +181,7 @@
                     android:checkable="true"
                     android:text="Transit"
                     android:textColor="@color/white"
-                    app:chipBackgroundColor="@color/primaryColor" />
+                    app:chipBackgroundColor="@color/black" />
 
 
             </com.google.android.material.chip.ChipGroup>

@@ -11,7 +11,7 @@
         android:id="@+id/background"
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:background="@color/primaryColor"
+        android:background="@color/teal_700"
         android:orientation="horizontal" />
 
     <androidx.cardview.widget.CardView
@@ -38,7 +38,7 @@
                 app:hintAnimationEnabled="false"
                 app:hintTextColor="@color/itemTextColor"
                 app:startIconDrawable="@drawable/ic_email_filled"
-                app:startIconTint="@color/primaryColor">
+                app:startIconTint="@color/black">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/edtUEmail"
@@ -59,7 +59,8 @@
                 android:text="Update"
                 android:textSize="20dp"
                 android:textStyle="bold"
-                app:cornerRadius="5dp" />
+                app:cornerRadius="5dp"
+                />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 

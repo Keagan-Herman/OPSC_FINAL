@@ -42,7 +42,7 @@
                 android:layout_height="wrap_content"
                 android:drawableStart="@drawable/ic_location"
                 android:drawablePadding="10dp"
-                android:drawableTint="@color/primaryColor"
+                android:drawableTint="@color/black"
                 android:hint="Search Place"
                 android:inputType="text"
                 android:maxLines="1"
@@ -57,7 +57,8 @@
             android:layout_height="65dp"
             android:layout_marginBottom="30dp"
             android:background="@drawable/map_background"
-            android:elevation="5dp" />
+            android:elevation="5dp"
+            />
 
 
 
@@ -96,7 +97,7 @@
         android:src="@drawable/ic_map_type"
         app:backgroundTint="@color/white"
         app:fabCustomSize="40dp"
-        app:tint="@color/primaryColor" />
+        app:tint="@color/black" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/enableTraffic"
@@ -116,11 +117,14 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/enableTraffic"
         android:layout_alignParentEnd="true"
-        android:layout_margin="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
         android:src="@drawable/ic_my_location"
         app:backgroundTint="@color/white"
         app:fabCustomSize="50dp"
-        app:tint="@color/primaryColor" />
+        app:tint="@color/black" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/placesRecyclerView"
