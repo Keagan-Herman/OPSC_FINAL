@@ -35,7 +35,7 @@ public class InfoWindowAdapter implements GoogleMap.InfoWindowAdapter {
 
         if (distance > 1000) {
             double kilometers = distance / 1000;
-            binding.txtLocationDistance.setText(distance + " KM");
+            binding.txtLocationDistance.setText(kilometers + " KM");
         } else {
             binding.txtLocationDistance.setText(distance + " Meters");
 
