@@ -65,15 +65,7 @@ public class SettingsFragment extends Fragment {
         loadingDialog = new LoadingDialog(getActivity());
         appPermissions = new AppPermissions();
 
-        binding.imgCamera.setOnClickListener(camera -> {
 
-            if (appPermissions.isStorageOk(getContext())) {
-                pickImage();
-            } else {
-                requestPermissions(new String[]{Manifest.permission.READ_EXTERNAL_STORAGE
-                        , Manifest.permission.WRITE_EXTERNAL_STORAGE}, AllConstant.STORAGE_REQUEST_CODE);
-            }
-        });
 
         binding.txtUsername.setOnClickListener(username -> {
             usernameDialog();
